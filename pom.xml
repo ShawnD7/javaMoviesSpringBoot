@@ -18,6 +18,12 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>io.itpl</groupId>
+			<artifactId>microservice</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<classifier>exec</classifier>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
